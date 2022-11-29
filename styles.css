@@ -171,3 +171,10 @@
 
 /*    ------ CALL TO ACTION ------    */
 
+.callToAction {
+    min-width:100vh;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
