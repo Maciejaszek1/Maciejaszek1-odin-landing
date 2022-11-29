@@ -9,8 +9,10 @@
     min-width: 100vh;
 }
 
+/*    ------ HEADER ------    */
+
 .header {
-    background-color: #1f2936;
+    background-color: #1f2937;
     min-width:100vh;
     height: 60vh;
     color:#f9faf8;
@@ -85,4 +87,48 @@
 .sectext {
     font-size: 18px;
     color:e5e7eb;
+}
+
+
+/*    ------ CONTENT ------    */
+
+.content {
+    height:100vh;
+}
+.platformOne {
+    min-width:100vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infoHeader {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.boxes {
+    width: 80vh;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 150px;
+    text-align: center;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
+
+.squareText{
+    width: 120px;
 }
