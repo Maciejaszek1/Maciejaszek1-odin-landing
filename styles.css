@@ -86,14 +86,14 @@
 
 .sectext {
     font-size: 18px;
-    color:e5e7eb;
+    color: #e5e7eb;
 }
 
 
 /*    ------ CONTENT ------    */
 
 .content {
-    height:100vh;
+    min-height:100vh;
 }
 
 /*    ------ PLATFORM ONE ------    */
@@ -130,6 +130,7 @@
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 16px;
+    margin-bottom: 10px;
 }
 
 .squareText{
@@ -174,6 +175,45 @@
 .callToAction {
     min-width:100vh;
     min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaContainer {
+    color: #f9faf8;
+    background-color: #3882f6;
+    width: 60%;
+    height: 15vh;
+    padding: 8px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ctaTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaHeader {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ctaContainer .signup {
+    border: 2px;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+/*    ------ FOOTER ------    */
+
+.footer {
+    min-width: 100vh;
+    height: 8vh;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
